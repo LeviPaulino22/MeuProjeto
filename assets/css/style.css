@@ -1,14 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-    background-color: rgb(158, 167, 205);
+    background-color: rgb(181, 181, 181);
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1,5;
 }
-.texto{
-    font-size: 20px;
-    text-align: center;
-    color:rgb(44, 72, 164)
-    
-}
-.cor{
-    font-size: 50px;
-    color: brown;
-    text-align: center;
+header {
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8%;
+    background-color: rgb(246, 246, 245);
+    border: 2px solid rgb(5, 33, 250);
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
