@@ -4,20 +4,51 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(181, 181, 181);
-    color: blue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(253, 252, 250);
+    color: rgb(95, 94, 94);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1,5;
 }
 header {
-    height: 70px;
+    height: 80px;
     align-items: center;
     display: flex;
     justify-content: space-between;
     padding: 0 8%;
-    background-color: rgb(246, 246, 245);
-    border: 2px solid rgb(5, 33, 250);
+    background-color: rgb(224, 224, 220);
+    border-left:  12px solid rgb(124, 126, 126);
     position: sticky;
     top: 0;
     z-index: 10;
+    border-radius: 15px;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo::first-letter {
+    color: rgb(223, 181, 120);
+}
+
+.letraf {
+    color: rgb(223, 181, 120);
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+
+.menu a {
+    color: rgb(107, 135, 151);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu a:hover{
+    color: rgb(202, 195, 96);
+    font-size: 21px;
 }
