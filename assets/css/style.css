@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(253, 252, 250);
-    color: rgb(95, 94, 94);
+    background-color: rgb(32, 31, 31);
+    color: rgb(255, 252, 252);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1,5;
 }
@@ -15,8 +15,8 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 0 8%;
-    background-color: rgb(224, 224, 220);
-    border-left:  12px solid rgb(124, 126, 126);
+    background-color: rgb(150, 150, 138);
+    border-left:  12px solid rgb(78, 82, 82);
     position: sticky;
     top: 0;
     z-index: 10;
@@ -29,11 +29,11 @@ header {
 }
 
 .logo::first-letter {
-    color: rgb(223, 181, 120);
+    color: rgb(68, 64, 58);
 }
 
 .letraf {
-    color: rgb(223, 181, 120);
+    color: rgb(68, 65, 61);
 }
 
 .menu {
@@ -43,12 +43,29 @@ header {
 
 
 .menu a {
-    color: rgb(107, 135, 151);
+    color: rgb(76, 84, 88);
     text-decoration: none;
     font-size: 20px;
 }
 
 .menu a:hover{
-    color: rgb(202, 195, 96);
+    color: rgb(255, 0, 0);
     font-size: 21px;
+}
+
+.destaque img {
+    max-width: 100%;
+    height: 520px;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 20px;
+} 
+
+.destaque {
+    min-height: 520px;
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: bold;
 }
