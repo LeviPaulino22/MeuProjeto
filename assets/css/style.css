@@ -3,199 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    background-color: rgb(32, 31, 31);
-    color: rgb(255, 252, 252);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1,5;
-    background-image:
-        linear-gradient(rgba(202, 200, 200, 0.55), rgba(15, 61, 12, 0.596)),
-        url(https://tse2.mm.bing.net/th/id/OIP.3wPcVfgpnk1uaMAm9rwVRAHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    margin: 0;
-}
-header {
-    height: 80px;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 8%;
-    background-color: rgba(134, 134, 134, 0.89);
-    border-left:  12px solid rgba(27, 99, 51, 0.589);
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    border-radius: 15px;
-    
-}
 
-.logo {
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.logo::first-letter {
-    color: rgb(68, 64, 58);
-}
-
-.letraf {
-    color: rgb(68, 65, 61);
-}
-
-.menu {
-    display: flex;
-    gap: 40px;
-}
-
-
-.menu a {
-    color: rgb(76, 84, 88);
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.menu a:hover{
-    color: rgba(22, 199, 46, 0.76);
-    font-size: 21px;
-}
-
-.destaque img {
-    max-width: 100%;
-    height: 820px;
-    display: block;
-    align-items: center;
-    margin: 0 auto;
-    border-radius: 20px;
-} 
-
-.destaque {
-    min-height: 520px;
-    position: relative;
-    overflow: hidden;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.destaque::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background:
-        linear-gradient(
-            90deg,
-            rgba(22, 22, 22, 0.884),
-            rgba(33, 61, 33, 0.63),
-            rgba(0, 0, 0, 0.733)
-        );
-}
-
-.destaque-conteudo {
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
-    max-width: 620px;
-}
-.destaque {
-    min-height: 520px;
-    position: relative;
-    overflow: hidden;
-}
- 
-.destaque::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background:
-        linear-gradient(
-            90deg,
-            rgba( 0, 0, 0, 0.95),
-            rgba(0, 0, 0, 0.65),
-            rgb(0, 0, 0, 0.15)
-        );
-}
- 
-.destaque-conteudo {
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
-    max-width: 650px;
-}
- 
-.categoria {
-    color: #f01212;
-    font-size: 11px;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-}
- 
-h1 {
-    font-size: 52px;
-    line-height: 1.05;
-    margin: 12px 0 20px;
-}
-.destaque p {
-    color: #ddd;
-    max-width: 550px;
-    margin-bottom: 25px;
-}
- 
-.secao {
-    padding: 70px 8%;
-}
- 
-.titulo {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    margin-bottom: 30px;
-}
- 
-.titulo span {
-    color: #e63946;
-    font-size: 11px;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
- 
-.titulo h2 {
-    font-size: 32px;
-    margin-top: 5px;
-}
- 
-.titulo a {
-    color: #aaa;
-    font-size: 14px;
-    text-decoration: none;
-}
- 
-.titulo a:hover {
-    color: #fff;
-}
-.noticia-conteudo{
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-}
- .noticias-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-
- }
-
- * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
- 
 body {
     background-color: #111;
     color: #eee;
@@ -222,7 +30,7 @@ header {
 }
  
 .logo::first-letter {
-    color: #730707;
+    color: #0c3f13;
 }
  
 .menu {
@@ -407,7 +215,7 @@ h1 {
 
 .jogo img {
     width: 100%;
-    height: 100%;
+    height:100%;
     object-fit: cover;
     transition: transform 0.3s;
 }
@@ -461,7 +269,7 @@ h1 {
 }
 
 .mais-lida strong {
-   color: #52f86e;
+   color: #5a615b;
    font-size: 35px;
    min-width: 55px;
 
@@ -485,7 +293,7 @@ footer {
     grid-template-columns: 2fr 1fr 1fr;
     gap: 50px;
     background-color: #111;
-    border-top: 1px solid red;
+    border-top: 1px solid rgb(7, 49, 7);
 
 }
 
