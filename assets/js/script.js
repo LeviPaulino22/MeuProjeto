@@ -1,14 +1,14 @@
-console.log ("Olá, Nerd")
+const imgsDestaque = ["./assets/img/R.png", "./assets/img/3917695.jpg", "./assets/img/drDomm.jpg"]
 
-const levi = "Levi Paulino Sales Sousa"
+let imagemAtual = 1;
 
-console.log(levi)
+const imagem = document.querySelector("#imagemDestaque")
 
-let levi2 = "Oie"
+setInterval(function (){
+   imagemAtual++;
+   if(imagemAtual >= imgsDestaque.length){
+    imagemAtual = 0;
+   }
 
-console.log (levi2)
-
-levi2 = "nerd"
-
-console.log(levi2)
-
+   imagem.src = imgsDestaque[imagemAtual]
+}, 5000)
