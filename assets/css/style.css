@@ -322,3 +322,94 @@ footer a:hover {
     font-size: 20px;
 
 }
+
+@media (max-width: 900px) {
+ 
+    .header {
+        padding: 0 5%;
+    }
+ 
+ 
+    .destaque-conteudo {
+        left: 5%;
+        right: 5%;
+    }
+ 
+ 
+    .destaque h1 {
+        font-size: 42px;
+    }
+ 
+ 
+    .secao {
+        padding: 60px 5%;
+    }
+ 
+ 
+    .noticias-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+ 
+ 
+    .jogos-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+ 
+ 
+ 
+ 
+}
+
+@media (max-width: 600px) {
+    .menu {
+        display: none;
+    }
+ 
+ 
+    .menu-button {
+        display: block;
+    }
+ 
+ 
+    .destaque,
+    .destaque img {
+        min-height: 500px;
+ 
+        height: 500px;
+    }
+ 
+ 
+    .destaque h1 {
+        font-size: 34px;
+    }
+ 
+ 
+    .noticias-grid {
+        grid-template-columns: 1fr;
+    }
+ 
+ 
+    .jogos-grid {
+        grid-template-columns: 1fr;
+    }
+ 
+ 
+    .titulo {
+        align-items: start;
+ 
+        flex-direction: column;
+ 
+        gap: 10px;
+    }
+ 
+ 
+    footer {
+        grid-template-columns: 1fr;
+    }
+ 
+}
+ 
+
+ 
